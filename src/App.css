@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  width: 50%;
+  padding: 2em 0;
+}
+
+.logo-small {
+  max-width: 20em;
+  padding: 1em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  background-image: url(./assets/background.svg);
+}
+
+.card {
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 4em;
+  display: flex;
+  max-width: 55em;
+  gap: 5em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2em;
+  color: #1c4338;
+}
+
+button {
+  background-color: #1c4338;
+  border-radius: 1em;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.picture {
+  height: 20em;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.header {
+  display: flex;
+  max-width: 50em;
+  gap: 1em;
+}
+
+h1 {
+  color: #1c4338;
+  font-size: 2.5em;
+}
+
+.circle {
+  width: 5em;
+  height: 5em;
+  background-color: #1c4338;
+  border-radius: 100%;
+}
+
+.card.column {
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.mentors-title {
+  padding-top: 3em;
+}
+
+.badge {
+  border-radius: 3em;
+  color: #fff;
+  background-color: #1c4338;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.linkedin-logo {
+  width: 2em;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.logo-container {
+  width: 20em;
+}
