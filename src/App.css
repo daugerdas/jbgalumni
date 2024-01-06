@@ -118,5 +118,7 @@ h1 {
   .card,
   .header {
     flex-direction: column;
+    width: 80%;
+    box-sizing: content-box;
   }
 }
